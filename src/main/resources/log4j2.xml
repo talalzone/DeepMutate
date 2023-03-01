@@ -1,0 +1,12 @@
+<Configuration status="debug">
+    <Appenders>
+        <Console name="ConsoleStdOut" target="SYSTEM_OUT">
+            <PatternLayout pattern="%p %m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="ConsoleStdOut"/>
+        </Root>
+    </Loggers>
+</Configuration>
