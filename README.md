@@ -278,3 +278,7 @@ Block comments:
 * CSV
 * Console
 
+
+## License ##
+This project is licensed under the MIT License
+
